@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "styl",
+    "stylus",
+    "vue",
+    "html",
+    "scss"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  // Match eslint-plugin-simple-import-sort in organize/auto-imports.
+  "typescript.unstable": {
+    "organizeImportsCollation": "unicode",
+    "organizeImportsCaseFirst": "upper",
+    "organizeImportsIgnoreCase": false,
+    "organizeImportsNumericCollation": true
+  },
+  "files.associations": {
+    "*.json": "jsonc"
+  }
+}
